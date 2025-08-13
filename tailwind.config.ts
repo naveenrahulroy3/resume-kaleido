@@ -89,10 +89,6 @@ export default {
 					'0%': { opacity: '0', transform: 'translateY(30px)' },
 					'100%': { opacity: '1', transform: 'translateY(0)' }
 				},
-				'scale-in': {
-					'0%': { opacity: '0', transform: 'scale(0.9)' },
-					'100%': { opacity: '1', transform: 'scale(1)' }
-				},
 				'particle-float': {
 					'0%': { transform: 'translateY(100vh) rotate(0deg)', opacity: '1' },
 					'100%': { transform: 'translateY(-10vh) rotate(360deg)', opacity: '0' }
@@ -104,7 +100,6 @@ export default {
 				'float': 'float 6s ease-in-out infinite',
 				'pulse-glow': 'pulse-glow 2s ease-in-out infinite alternate',
 				'slide-in-up': 'slide-in-up 0.6s ease-out forwards',
-				'scale-in': 'scale-in 0.5s ease-out forwards',
 				'particle-float': 'particle-float 20s linear infinite'
 			}
 		}
